@@ -1,0 +1,38 @@
+﻿/*
+    para centrar y dar estilo a la imagen del encabezado
+*/
+.encabezadoDiv{
+    text-align:center;
+    height:30%;
+}
+
+.encabezadoImagen{
+    height:100%;
+    width:100%;
+}
+
+/*
+    Usado para los menus
+*/
+.menus {
+    text-align: center;
+    width: 30%;
+}
+/*
+    Usado para los menus
+*/
+.izquierda {
+    float: left;
+}
+/*
+    Usado para los menus
+*/
+.centro {
+    display: inline-block
+}
+/*
+    Usado para los menus
+*/
+.derecha {
+    float: right;
+}
