@@ -23,7 +23,8 @@
             <div class="form-group">
                 <label class="control-label col-sm-2" for="login">Password:</label>
                 <div class="col-sm-10">
-                    &nbsp; <asp:TextBox ID="txtcontraseña" runat="server" TextMode="Password" Width="20%"></asp:TextBox>
+                    &nbsp;
+                    <asp:TextBox ID="txtcontraseña" runat="server" TextMode="Password" Width="20%"></asp:TextBox>
                     <br />
                 </div>
             </div>
@@ -31,7 +32,7 @@
                 <div class="col-sm-offset-2 col-sm-10">
                      <asp:Button ID="Button1" class="btn btn-success" runat="server" Text="Enviar" Height="36px" Width="145px" />
                      <asp:Button ID="Button2" class="btn btn-primary" runat="server" Text="Registrar" Height="36px" Width="145px" />
-                        <asp:Label ID="lbl1" runat="server"></asp:Label>
+                    <asp:Label ID="lbl1" runat="server"></asp:Label>
                 </div>
             </div>
             </div>
