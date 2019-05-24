@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeFile="RealidadA.aspx.vb" Inherits="RealidadA" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="RealidadA.aspx.vb" Inherits="Proyecto_Unad.RealidadA" %>
 
 <!DOCTYPE html>
 

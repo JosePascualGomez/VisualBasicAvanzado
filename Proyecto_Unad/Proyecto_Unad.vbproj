@@ -17,7 +17,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MyType>Custom</MyType>
     <UseIISExpress>true</UseIISExpress>
-    <Use64BitIISExpress />
+    <Use64BitIISExpress>false</Use64BitIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -48,13 +48,11 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Core" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -135,20 +133,12 @@
     <Content Include="Ambiente.aspx" />
     <Content Include="Ambiente2.aspx" />
     <Content Include="Ambiente3.aspx" />
-    <Content Include="App_Data\proyectodb.mdf" />
-    <Content Include="App_Data\proyectodb_log.ldf">
-      <DependentUpon>proyectodb.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\Proyecto_UNAD.mdf" />
-    <Content Include="App_Data\Proyecto_UNAD_log.ldf">
-      <DependentUpon>Proyecto_UNAD.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\general.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Default.aspx" />
     <Content Include="Evaluacion2.aspx" />
     <Content Include="Evaluacion4.aspx" />
     <Content Include="favicon.ico" />
@@ -162,6 +152,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Imagenes\Ambiente 1.jpg" />
     <Content Include="Imagenes\Ambiente 2.jpg" />
@@ -222,9 +213,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
@@ -233,24 +222,45 @@
     </Compile>
     <Compile Include="Ambiente.aspx.vb">
       <DependentUpon>Ambiente.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Ambiente2.aspx.designer.vb">
       <DependentUpon>Ambiente2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ambiente2.aspx.vb">
       <DependentUpon>Ambiente2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Ambiente3.aspx.designer.vb">
       <DependentUpon>Ambiente3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ambiente3.aspx.vb">
       <DependentUpon>Ambiente3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Evaluacion2.aspx.designer.vb">
+      <DependentUpon>Evaluacion2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Evaluacion2.aspx.vb">
+      <DependentUpon>Evaluacion2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Evaluacion4.aspx.designer.vb">
+      <DependentUpon>Evaluacion4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Evaluacion4.aspx.vb">
+      <DependentUpon>Evaluacion4.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -259,39 +269,42 @@
     </Compile>
     <Compile Include="Ingles.aspx.vb">
       <DependentUpon>Ingles.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Ingles2.aspx.designer.vb">
       <DependentUpon>Ingles2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ingles2.aspx.vb">
       <DependentUpon>Ingles2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Ingles3.aspx.designer.vb">
       <DependentUpon>Ingles3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ingles3.aspx.vb">
       <DependentUpon>Ingles3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Kodu.aspx.designer.vb">
       <DependentUpon>Kodu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Kodu.aspx.vb">
       <DependentUpon>Kodu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Loguin.aspx.designer.vb">
+      <DependentUpon>Loguin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Loguin.aspx.vb">
       <DependentUpon>Loguin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Menu.aspx.designer.vb">
       <DependentUpon>Menu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Menu.aspx.vb">
       <DependentUpon>Menu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -312,30 +325,40 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Quiz1.aspx.designer.vb">
+      <DependentUpon>Quiz1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz1.aspx.vb">
+      <DependentUpon>Quiz1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="RealidadA.aspx.designer.vb">
       <DependentUpon>RealidadA.aspx</DependentUpon>
     </Compile>
     <Compile Include="RealidadA.aspx.vb">
       <DependentUpon>RealidadA.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="RealidadV.aspx.designer.vb">
       <DependentUpon>RealidadV.aspx</DependentUpon>
     </Compile>
     <Compile Include="RealidadV.aspx.vb">
       <DependentUpon>RealidadV.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Registrar.aspx.designer.vb">
+      <DependentUpon>Registrar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registrar.aspx.vb">
       <DependentUpon>Registrar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Scracth.aspx.designer.vb">
       <DependentUpon>Scracth.aspx</DependentUpon>
     </Compile>
     <Compile Include="Scracth.aspx.vb">
       <DependentUpon>Scracth.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
@@ -383,7 +406,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -401,12 +424,6 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
-  <PropertyGroup>
-    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
@@ -416,17 +433,14 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>54445</DevelopmentServerPort>
+          <DevelopmentServerPort>53052</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54445/</IISUrl>
+          <IISUrl>http://localhost:53052/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
           </CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
-          <servers defaultServer="SelfHostServer">
-            <server name="SelfHostServer" exePath="" cmdArgs="" url="http://localhost:54445/" workingDir="" />
-          </servers>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>

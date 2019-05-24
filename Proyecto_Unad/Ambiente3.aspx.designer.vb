@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Ambiental3
+Partial Public Class Ambiente3
     
     '''<summary>
     '''Control form1.

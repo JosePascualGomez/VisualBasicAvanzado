@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeFile="Ingles2.aspx.vb" Inherits="Ingles1" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Ingles2.aspx.vb" Inherits="Proyecto_Unad.Ingles2" %>
 
 <!DOCTYPE html>
 
@@ -122,3 +122,4 @@
 
 </body>
 </html>
+

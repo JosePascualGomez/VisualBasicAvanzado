@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeFile="RealidadV.aspx.vb" Inherits="RealidadV" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="RealidadV.aspx.vb" Inherits="Proyecto_Unad.RealidadV" %>
 
 <!DOCTYPE html>
 
@@ -114,4 +114,3 @@ mso-fareast-font-family:Arial;mso-bidi-font-family:Arial">La realidad virtual (R
 
 </body>
 </html>
-

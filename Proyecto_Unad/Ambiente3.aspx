@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeFile="Ambiente3.aspx.vb" Inherits="Ambiental3" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Ambiente3.aspx.vb" Inherits="Proyecto_Unad.Ambiente3" %>
 
 <!DOCTYPE html>
 

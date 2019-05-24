@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeFile="Quiz1.aspx.vb" Inherits="Quiz1" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Quiz1.aspx.vb" Inherits="Proyecto_Unad.Quiz1" %>
 
 <!DOCTYPE html>
 

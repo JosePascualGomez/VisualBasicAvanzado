@@ -23,13 +23,13 @@ Partial Public Class Menu
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''Control Image1.
+    '''Control Image2.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents Image2 As Global.System.Web.UI.WebControls.Image
     
     '''<summary>
     '''Control ImageButton1.
@@ -86,11 +86,11 @@ Partial Public Class Menu
     Protected WithEvents ImageButton6 As Global.System.Web.UI.WebControls.ImageButton
     
     '''<summary>
-    '''Control Button1.
+    '''Control salir.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents salir As Global.System.Web.UI.WebControls.Button
 End Class

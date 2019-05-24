@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeFile="Scracth.aspx.vb" Inherits="Scracth" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Scracth.aspx.vb" Inherits="Proyecto_Unad.Scracth" %>
 
 <!DOCTYPE html>
 

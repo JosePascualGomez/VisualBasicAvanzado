@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Menu.aspx.vb" Inherits="Menu" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Menu.aspx.vb" Inherits="Proyecto_Unad.Menu" %>
 
 <!DOCTYPE html>
 
@@ -35,3 +35,4 @@
 		</form>
 </body>
 </html>
+

@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Ambiente2
+Partial Public Class Registrar
     
     '''<summary>
     '''Control form1.
@@ -32,58 +32,67 @@ Partial Public Class Ambiente2
     Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
     
     '''<summary>
-    '''Control Image2.
+    '''Control identificacion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image2 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents identificacion As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Image4.
+    '''Control pass.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image4 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents pass As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Image3.
+    '''Control nombre.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image3 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents nombre As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Button3.
+    '''Control apellido.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents apellido As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Button4.
+    '''Control telefono.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button4 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents telefono As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Button5.
+    '''Control email.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button5 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents email As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control nacimiento.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents nacimiento As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control Button1.

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeFile="Kodu.aspx.vb" Inherits="Kodu" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Kodu.aspx.vb" Inherits="Proyecto_Unad.Kodu" %>
 
 <!DOCTYPE html>
 
@@ -118,4 +118,5 @@
 
 </body>
 </html>
+
 

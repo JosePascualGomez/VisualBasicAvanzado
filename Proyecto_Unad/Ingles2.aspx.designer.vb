@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Ingles1
+Partial Public Class Ingles2
     
     '''<summary>
     '''Control form1.

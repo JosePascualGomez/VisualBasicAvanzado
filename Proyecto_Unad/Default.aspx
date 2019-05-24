@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Loguin.aspx.vb" Inherits="Proyecto_Unad.Loguin" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="Proyecto_Unad._Default" %>
 
 <!DOCTYPE html>
 

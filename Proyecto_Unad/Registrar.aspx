@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Registrar.aspx.vb" Inherits="Registrar" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Registrar.aspx.vb" Inherits="Proyecto_Unad.Registrar" %>
 
 <!DOCTYPE html>
 
@@ -78,3 +78,4 @@
     </form>
 </body>
 </html>
+

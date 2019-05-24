@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeFile="Ambiente.aspx.vb" Inherits="Ambiente" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Ambiente.aspx.vb" Inherits="Proyecto_Unad.Ambiente" %>
 
 <!DOCTYPE html>
 
@@ -121,4 +121,5 @@
 
 </body>
 </html>
+
 

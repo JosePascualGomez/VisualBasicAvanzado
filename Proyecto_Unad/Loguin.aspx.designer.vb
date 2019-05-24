@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Ambiente2
+Partial Public Class Loguin
     
     '''<summary>
     '''Control form1.
@@ -32,58 +32,22 @@ Partial Public Class Ambiente2
     Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
     
     '''<summary>
-    '''Control Image2.
+    '''Control txtusuario.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image2 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents txtusuario As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Image4.
+    '''Control txtcontraseña.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image4 As Global.System.Web.UI.WebControls.Image
-    
-    '''<summary>
-    '''Control Image3.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Image3 As Global.System.Web.UI.WebControls.Image
-    
-    '''<summary>
-    '''Control Button3.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
-    
-    '''<summary>
-    '''Control Button4.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Button4 As Global.System.Web.UI.WebControls.Button
-    
-    '''<summary>
-    '''Control Button5.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Button5 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents txtcontraseña As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control Button1.
@@ -102,4 +66,13 @@ Partial Public Class Ambiente2
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''Control lbl1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl1 As Global.System.Web.UI.WebControls.Label
 End Class

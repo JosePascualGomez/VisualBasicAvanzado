@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeFile="Ingles.aspx.vb" Inherits="Ingles" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Ingles.aspx.vb" Inherits="Proyecto_Unad.Ingles" %>
 
 <!DOCTYPE html>
 

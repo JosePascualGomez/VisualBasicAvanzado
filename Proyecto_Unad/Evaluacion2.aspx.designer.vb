@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Ambiente2
+Partial Public Class Evaluacion2
     
     '''<summary>
     '''Control form1.
@@ -41,49 +41,49 @@ Partial Public Class Ambiente2
     Protected WithEvents Image2 As Global.System.Web.UI.WebControls.Image
     
     '''<summary>
-    '''Control Image4.
+    '''Control CheckBoxList1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image4 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents CheckBoxList1 As Global.System.Web.UI.WebControls.CheckBoxList
     
     '''<summary>
-    '''Control Image3.
+    '''Control CheckBoxList4.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Image3 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents CheckBoxList4 As Global.System.Web.UI.WebControls.CheckBoxList
     
     '''<summary>
-    '''Control Button3.
+    '''Control CheckBoxList5.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents CheckBoxList5 As Global.System.Web.UI.WebControls.CheckBoxList
     
     '''<summary>
-    '''Control Button4.
+    '''Control CheckBoxList6.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button4 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents CheckBoxList6 As Global.System.Web.UI.WebControls.CheckBoxList
     
     '''<summary>
-    '''Control Button5.
+    '''Control CheckBoxList7.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button5 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents CheckBoxList7 As Global.System.Web.UI.WebControls.CheckBoxList
     
     '''<summary>
     '''Control Button1.

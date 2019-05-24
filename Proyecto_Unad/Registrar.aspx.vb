@@ -1,8 +1,14 @@
-﻿Imports System.Data
-Imports System.Data.SqlClient
-Imports System.Data.OleDb
-Partial Class Registrar
+﻿Imports System.Data.SqlClient
+Public Class Registrar
     Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+    End Sub
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Response.Redirect("Default.aspx")
+    End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Try
@@ -14,13 +20,13 @@ Partial Class Registrar
             cmd.Connection = conexion
             cmd.CommandType = CommandType.StoredProcedure
 
-            cmd.Parameters.AddWithValue("@Codigo", identificacion.Text.ToUpper)
+            cmd.Parameters.AddWithValue("@Codigo", identificacion.Text)
             cmd.Parameters.AddWithValue("@pass", pass.Text.ToUpper)
             cmd.Parameters.AddWithValue("@Nombre", nombre.Text.ToUpper)
             cmd.Parameters.AddWithValue("@Apellido", apellido.Text.ToUpper)
             cmd.Parameters.AddWithValue("@telefono", telefono.Text.ToUpper)
             cmd.Parameters.AddWithValue("@email", email.Text.ToUpper)
-            cmd.Parameters.AddWithValue("@Fecha", nacimiento.Text.ToUpper)
+            cmd.Parameters.AddWithValue("@Fecha", nacimiento.Text)
             cmd.Parameters.AddWithValue("@tipodocumento", 1)
             cmd.ExecuteNonQuery()
 
@@ -44,9 +50,5 @@ Partial Class Registrar
             email.Text = ""
             nacimiento.Text = ""
         End Try
-
-    End Sub
-    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Response.Redirect("Loguin.aspx")
     End Sub
 End Class
